@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    width: 900px;
+    background: white;
+    padding: 10px;
+}
+.heading, .siding, .labeling, .blue, .yellow, .pink, .lanthanoids, .actinoids {
+    Width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    /* display: table-cell;
+    border-spacing: 0px 10px; */
+    display: inline-block;
+}
+.row {
+    margin: 5px 0px;
+    display: block;
+}
+
+.heading, .siding, .labeling {
+    color: red;
+    font-size: 12px;
+    border: 1px solid transparent;
+}
+
+.yellow {
+    background-color: #FECB00;
+}
+
+.blue {
+    background-color: #689BFF;
+}
+.pink {
+    background-color: #FD9A98;
+}
+.lanthanoids, .actinoids {
+    background-color: #1FCA21;
+}
+.blue, .yellow, .pink, .lanthanoids, .actinoids {
+    border: 1px solid grey;
+}
+.blue p, .yellow p, .pink p, .lanthanoids p, .actinoids p {
+    font-size: 10px;
+}
+
+.blue h6, .yellow h6, .pink h6, .lanthanoids h6, .actinoids h6 {
+    font-size: 16px;
+    color: #2A13A2;
+}
+.labeling {
+    text-align: right;
+}
+#h {
+    margin-right: 746px;
+}
+#be {
+    margin-right: 472px;
+}
+#mg {
+    margin-right: 472px;
+}
+#two, #ca, #sr, #ba, #ra {
+    margin-right: 11px;
+}
+
+#star, #star_star {
+    margin-left: 10px;
+}
+#row_9 {
+    margin-top: 22px;
+}
+#lanthanoids, #actinoids {
+    margin-left: 38px;
+}
