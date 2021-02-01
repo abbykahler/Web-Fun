@@ -1,0 +1,161 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    margin: 970;
+}
+
+
+header {
+    background-color: rgb(42,96,140);
+    display: flex;
+    justify-content: space-between;
+    
+}
+    header img{
+        height: 100px;
+        padding-left: 25px;
+        padding-top: 20px;
+    }
+    header h3 {
+        font-size: 15px;
+        color: white;
+        
+        
+    }
+    .header_right{
+        margin-right: 25px;
+        margin-top: 38px;
+
+    }
+    .search {
+        display: flex;
+        padding-top: 10px;
+    }
+
+.nav_bar{
+    background-color: rgb(42,96,140);
+    text-align: center;
+    padding: 15px;
+    
+}
+    .nav_bar a{
+        padding: 25px;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+    
+        
+    }
+.pages{
+    background-color: rgb(69,125,172);
+    height: 30px;
+    padding: 15px
+    
+}
+.main_content{
+    display: flex;
+    text-align: center;
+    
+}
+.mid_section{
+    background-color:  rgb(42,96,140);
+}
+
+    .mid_section ul{
+        padding-top: 30px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        margin-left: 150px;
+    }
+
+
+    .mid_section a{
+        color: white;
+        margin-left: 30px;
+        padding: 5px;
+    
+        
+    }
+
+.description{
+    width: 700px;
+    margin-left: 50px;
+    padding-top: 15px;
+}
+.description p{
+    color: white;
+
+}
+.description h3{
+    color: rgb(217,189,63);
+    padding-top: 10px;
+    font-style: italic;
+}
+.description h4{
+    color: White;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#bottom_section {
+    background-color: white;
+    padding-top: 20px;
+    text-align: center;
+    flex-wrap: wrap; 
+    display: flex;   
+    justify-content: space-between;
+    
+    
+    
+}
+#bottom_section h3{
+    padding-bottom: 8px;
+}
+#bottom_section a{
+    color: rgb(162,197,226);
+    
+    
+
+}
+#bottom_section p{
+    border-top: violet;
+    border-top-width: ;
+}
+
+.lower{
+    max-width: 40%; 
+
+}
+
+
+
+
+
+footer {
+    background-color: rgb(42,96,140);
+    text-align: center;
+    height: 80px;
+    align-content: end;
+    display:grid;
+    olor: rgb(122,174,218);
+    
+}
+    footer a {
+        text-decoration: none;
+        padding: 12px;
+        padding-bottom: 10px;
+        color: rgb(122,174,218);
+        
+        
+    }
+    footer h6{
+        color: rgb(122,174,218);
+        padding-top: 8px;
+    }
+    .footer_text{
+        display: inline;
+        padding-bottom: 10px;
+        olor: rgb(122,174,218);
+        
+    }
