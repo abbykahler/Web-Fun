@@ -3,26 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration Form</title>
 
     <form action="process.php" method="post">
         <h1>My Registration Form</h1>
 
         <label for = "first_name">First Name</label>
-        <input type = "text" id="first_name" name= "first_name">
+        <input type = "text" id="first_name" name= "first_name"><br><br>
 
         <label for="last_name">Last Name:</label>
-        <input type="text" id="last_name" name="last_name">
+        <input type="text" id="last_name" name="last_name"><br><br>
 
         <label for = "email" >Email:</label>
-        <input type="text" id="email" name="email">
+        <input type="text" id="email" name="email"><br><br>
 
         <label for="password">Password:</label>
-        <input type="password" id="password" name="password">
-        <label for="pw_confirm">PW Confirm:</label>
-        <input type="password" id="pw_confirm" name="password_confirmation">
+        <input type="password" id="password" name="password"><br><br>
 
-        <input type="date">
+        <label for="pw_confirm">PW Confirm:</label>
+        <input type="password" id="pw_confirm" name="password_confirmation"><br><br>
+
+        <label for="date">Birthday</label>
+        <input type="date"><br><br>
 
         <label for="male">Male</label>
         <input type="radio" id="male" name="gender" value="male">
@@ -32,24 +34,17 @@
         
         <label for="decline">Other</label>
         <input type="radio" id="decline" name="gender" value="decline">
-       
+    
         <p>A short description about yourself:</p>
-        <textarea name="description"></textarea>
+        <textarea name="description"></textarea><br><br>
 
         <label for="favlanguage">Favorite Lanuage:</label>
-
         <select name="JavaScript" id="JavaScript">
             <option value="JavaScript">JavaScript</optJavaScription>
-            <option value="python">Python</python>
-          </select>
+            <option value="Python">Python</python>
+            <option value="Java">Java</python>
+        </select><br><br>
 
-        <p>The input type="text"</strong> defines a one-line text input field:</p>
-
-
-        <label for="FaceBook">Faceb</label><br>
-        <input type="checkbox" id="fname" name="fname"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname"><br><br>
         <input type="submit" value="Submit">
 
     </form>
