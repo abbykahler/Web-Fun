@@ -1,0 +1,27 @@
+* {    
+    padding: 10px;
+    margin: 10px;
+}
+
+.center-box {
+    background-color: blue;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.center-item {
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    margin-top: 90px;
+}
+
+p{
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
