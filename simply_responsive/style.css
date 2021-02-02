@@ -1,16 +1,16 @@
-@media only screen and ( max-width: 480px ) {
+@media only screen and ( max-width: 576px ) {
     .med-2, .lg-1 {
         display: none;
     }
 }
 
-@media only screen and ( min-width: 481px ) {
+@media only screen and ( min-width: 768px ) {
     .sm-4, .lg-1 {
         display: none;
     }
 }
 
-@media only screen and ( min-width: 1024px) {
+@media only screen and ( min-width: 992px) {
     .lg-1 {
         display: block;
     }
