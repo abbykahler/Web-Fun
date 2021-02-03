@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disappearing Ninja</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <style>
+        
+        container {
+            height: 150px;
+            width: 600;
+        }
+        .pic {
+            display: block;
+            width: 700px;
+        }
+        button {
+            background-color: red;           
+        }
+        body{
+            margin-left: 350px;
+        }
+    </style>
+</head>
+<body>
+    <container>
+        <h1>Disappearing Ninja</h1>
+        <div class="pic">
+            <img src="ninja.jpg" id = "image1" width="150" height="150">
+            <img src="ninja.jpg" id = "image2" width="150" height="150">
+            <img src="ninja.jpg" id = "image3" width="150" height="150">
+            <img src="ninja.jpg" id = "image4" width="150" height="150">
+            <img src="ninja.jpg" id = "image5" width="150" height="150">
+            <img src="ninja.jpg" id = "image6" width="150" height="150">
+            <img src="ninja.jpg" id = "image7" width="150" height="150">
+            <img src="ninja.jpg" id = "image8" width="150" height="150">
+        </div>
+        <button class="button">Restore</button>
+    </container>
+</body>
+</html>
