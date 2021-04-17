@@ -18,8 +18,6 @@ function moveMin(arr) {
 }
 console.log(moveMin([2, 4, 1, 6, 3]));
 
-
-
 /*  Array: Remove At Given array and an index, remove and return the array value at that index. Do this without using built-in array methods except pop().*/
 
 
