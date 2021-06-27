@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: Verdana;
+}
+.w3-row-padding img{
+  height:260px;
+
+}
+/* .contact {
+  border: 1px solid #400485;
+  
+} */
+.icon i{
+  color:rgb(32, 151, 243);
+}
+.social a {
+  text-decoration: none;
+}
+
+.contact a, .contact h2{
+  text-decoration: none;
+  font-size: 30px;
+}
+.mySlide1 img, .mySlide2 img, .mySlide3 img{
+  height: 400px;
+}
+
+.work {border-style: solid;
+}
+
+
+.footer {
+ margin-right: 1000px
+}
+
+
+
