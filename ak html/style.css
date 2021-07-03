@@ -36,5 +36,48 @@
  margin-right: 1000px
 }
 
+.parallax {
+    background-image: url("img/img_parallax.jpg");
+    min-height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+ .parallax2 {
+    background-image: url("img/workpara.jpg");
+    min-height: 350px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .parallax3 {
+    background-image: url("img/edupara.jpg");
+    min-height: 350px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .parallax4 {
+    background-image: url("img/contactpara.jpg");
+    min-height: 350px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
 
 
+@/*media only screen and (max-device-width: 900px) {
+  .parallax,.parallax2,.parallax3,.parallax4 {
+    background-attachment: scroll; 
+  }
+
+  .para2 {
+    height: 200px; 
+    }
+  
+
+}*/
