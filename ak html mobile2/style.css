@@ -70,14 +70,17 @@
     }
 
 
-@/*media only screen and (max-device-width: 900px) {
+@media only screen and (max-device-width: 900px) {
   .parallax,.parallax2,.parallax3,.parallax4 {
     background-attachment: scroll; 
   }
 
-  .para2 {
-    height: 200px; 
-    }
+ /* .para2 img{
+    height: 100px; 
+    background-image: url("img/img_parallax_mobile.jpg");
+    
+
+    }*/
   
 
-}*/
+}
