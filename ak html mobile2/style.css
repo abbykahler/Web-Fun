@@ -73,6 +73,7 @@
 @media only screen and (max-device-width: 900px) {
   .parallax,.parallax2,.parallax3,.parallax4 {
     background-attachment: scroll; 
+    max-height: 10px;
   }
 
  /* .para2 img{
