@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Trip Tracker</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none;}
+
+</style>
+  <link rel="stylesheet" href="style.css">
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-center" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item-center w3-button w3-padding-large "><b>Abby Kahler</b></a>
+        <a href="index.html#portfolio" class="w3-bar-item-center  w3-button w3-padding-large w3-hide-small">Portfolio</a>
+        <a href="index.html#work" class="w3-bar-item-center  w3-button w3-padding-large w3-hide-small">Work</a>
+        <a href="index.html#education" class="w3-bar-item-center  w3-button w3-padding-large w3-hide-small">Education</a>
+        <a href="index.html#contact" class="w3-bar-item-center  w3-button w3-padding-large w3-hide-small">Contact</a>
+    </div>
+</div>
+
+<!-- Navbar  small screens -->
+<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="index.html#portfolio" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Portfolio</a>
+    <a href="index.html#work" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Work</a>
+    <a href="index.html#education" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Education</a>
+    <a href="index.html#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
+</div><br><br>
+
+
+
+
+<div class="w3-container  w3-center  w3-black" style="max-width:900px: background-color:black">
+        <div class="track">
+            <h2 class="w3-wide" style="font-size:50px;">Trip Tracker</h2>
+            <p class="w3-center">Trip Tracker is a simple app that can keep track of your next trip.</p> 
+            <p>The landing page has a registration and login with valdiations <br>to make sure the user can access their account.</p>
+            <div class="w3-row w3-padding-32">
+                <div class="trip">
+                    <img src="img/log2.png" class="w3-round w3-margin-bottom" alt="log in" style="width:80%">
+                </div>
+            </div>
+        </div>
+        <div class="track">
+            <p class="w3-center">The home page will display the users itinerary after the trip is created.</p>
+            <div class="w3-row w3-padding-32">
+                <div class="trip">
+                    <img src="img/trip_home1.png" class="w3-round w3-margin-bottom" alt="home page" style="width:80%">
+                </div>
+            </div>
+        </div>
+        <div class="track">
+            <p class="w3-center">The create page allows the user to customize their trip.</p>
+            <div class="w3-row w3-padding-32">
+                <div class="trip">
+                    <img src="img/create.png" class="w3-round w3-margin-bottom" alt="create" style="width:80%">
+                </div>
+            </div> 
+        </div>
+        <div class="track">
+            <p class="w3-center">The travel plan is now updated on the home screen and the trip can be removed or edited.</p>
+            <div class="w3-row w3-padding-32">
+                <div class="trip">
+                    <img src="img/trip_menu.png" class="w3-round w3-margin-bottom" alt="home" style="width:80%">
+                </div>
+            </div>
+        </div>
+        <div class="track">
+            <p class="w3-center">All the details of the trip can be viewed on the about page.</p>
+            <div class="w3-row w3-padding-32">
+                <div class="trip">
+                    <img src="img/view_trip.png" class="w3-round w3-margin-bottom" alt="view" style="width:80%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-center  w3-white w3-xlarge">
+    <div class="social">
+        <a href="https://github.com/abbykahler">
+        <i class="fa fa-github w3-hover-opacity w3-xxlarge"></i>
+        <a>
+        <a href="https://www.linkedin.com/in/abby-kahler-7ba25016/">
+        <i class="fa fa-linkedin w3-hover-opacity w3-xxlarge"></i>
+        <a>
+        <a href="https://www.facebook.com/Abbykahler10">
+        <i class="fa fa-facebook-official w3-hover-opacity w3-xxlarge"></i>
+        </a>
+        <a href="https://www.instagram.com/foleyartist.brown/?hl=en">
+        <i class="fa fa-instagram w3-hover-opacity w3-xxlarge"></i>
+        </a>
+    </div>
+    <h4>©2021 Abby Kahler</h4>      
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
+
+
